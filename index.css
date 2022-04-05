@@ -1,30 +1,42 @@
-body{
-    max-width: 1170px;
-    margin: auto;
+body {
+    background-color: #fff !important;
 }
-.club-signup-clubHeader{
+
+body a {
+    color: #ed1b24 !important;
+}
+
+.topic-page .page-body {
+    max-width: 1200px !important;
+}
+
+.club-signup-clubHeader {
     height: auto;
     width: 100%;
 }
-.club-signup-twoCols{
+
+.club-signup-twoCols {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 10px 0;
     grid-auto-rows: minmax(50px, auto);
     justify-items: center;
 }
-.club-signup-phone{
+
+.club-signup-phone {
     height: auto;
     max-width: 100%;
 }
-.club-signup-underPhone{
+
+.club-signup-underPhone {
     grid-column: 1;
     grid-row: 1;
     margin-top: 25%;
     font-size: large;
     width: 250px;
 }
-.club-signup-twoCols h2{
+
+.club-signup-twoCols h2 {
     grid-column: 2;
     grid-row: 1;
     width: 100%;
@@ -32,7 +44,8 @@ body{
     color: #ed1b24;
     margin-top: 5%;
 }
-.club-signup-text{
+
+.club-signup-text {
     grid-column: 2;
     grid-row: 1;
     font-size: 1em;
@@ -40,10 +53,8 @@ body{
     margin-top: 17%;
     width: 70%;
 }
-.club-signup-iframe-container{
+
+.club-signup-iframe-container {
     grid-column: 2;
     grid-row: 2;
-}
-@media (max-width: 690px){
-    
 }
